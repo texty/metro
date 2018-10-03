@@ -37,7 +37,7 @@
     background-color: #252626;
     color: white;
     margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    padding: 20px 0 0 0;
     max-width: 100vw;
     display: grid;
     grid-template-columns: 1% 1fr 1fr 1fr 1fr 1%;
@@ -189,8 +189,7 @@ body {
 
 .lead-container, .main-container, .info-container {
     display: grid;
-    grid-template-columns: 10% 10% 100px 45% 100px 25%;
-    /*font-weight: 300;*/
+    grid-template-columns: 5% 15% 1fr 45% 10% 20%;
 }
 
 .info-container {
@@ -198,16 +197,27 @@ body {
     color: #d6d6d6;
 }
 
+.citation {
+    grid-column: 2/4;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1.8em;
+    text-align: right;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
 .zag {
     grid-column: 3/-1;
     font-weight: 600;
+    margin: 10px 0;
 }
 
 .lead {
     grid-column: 3/5;
-    /*grid-template-columns: ;*/
-    font-size: 1.4em;
-    text-transform: uppercase;
+    font-size: 1.8em;
+    /*text-transform: uppercase;*/
     margin-top: 50px;
 }
 
@@ -217,7 +227,7 @@ body {
 
 .text-wrapper {
     grid-column: 4/5;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 30% auto;
     font-size: 1.6em;
 }
 
