@@ -186,6 +186,13 @@ body {
     font-size: 1.3em;
     line-height: 1.8;
 }
+@media (max-width: 768px) {
+    body {
+        line-height: 1.6;
+    }
+
+}
+
 
 .lead-container, .main-container, .info-container {
     display: grid;
@@ -235,6 +242,15 @@ body {
 
     .citation-big {
         display:none;
+    }
+    .info-container {
+        padding-top: 20px;
+    }
+    h2.header-sm {
+        font-size: 25px;
+        /*background-color: black;*/
+        /*padding: 5px 3px;*/
+        /*color: #FFF*/
     }
 }
 
