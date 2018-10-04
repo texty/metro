@@ -288,12 +288,12 @@ body {
 }
 
 
-.carousel-container {
+.carousel-container, .red-hat-container {
     display: grid;
-    grid-template-columns: auto 60% auto;
+    grid-template-columns: auto 57% auto;
 }
 @media (max-width: 768px) {
-    .carousel-container {
+    .carousel-container, .red-hat-container {
         grid-template-columns: auto 80% auto;
     }
 }
@@ -338,7 +338,7 @@ body {
     font-weight: 600;
 }
 
-.carousel-custom {
+.carousel-custom, .red-hat {
     grid-column: 2/3;
     padding: 30px 0 50px;
 }
@@ -453,6 +453,11 @@ h4 {
 blockquote {
     margin-bottom: 10px;
     border-left: 5px solid #d6d6d6;
+}
+
+
+.carousel-caption {
+    font-size: 1.4em;
 }
 
 
